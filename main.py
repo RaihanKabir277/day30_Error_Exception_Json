@@ -29,7 +29,12 @@ else:
     content = file.read()
     print(content)   #if try and except has no problem then it will run
 
-finally:
-    file.close()
-    print("File has closed")
+# finally:
+#     file.close()
+    # print("File has closed")
+
+# ------------ My own exception ----------------
+# finally:
+#     raise TypeError("This is an error that i made up")  #it will raise an error if the code is right also
+
 
